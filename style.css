@@ -1,0 +1,96 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI, sans-serif;
+}
+
+/* Background Image */
+body {
+  min-height: 200vh;
+  background: url("images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA3L2pvYjE0NDgtYmFja2dyb3VuZC0wNGEteF8xLmpwZw.webp") center / cover no-repeat;
+  color: #222;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 30px 50px;
+  background: rgba(255,255,255,0.75);
+    border-radius: 12px;
+}
+/* Summary */
+section h2 {
+  color: #ff5fa2;
+  margin-bottom: 10px;
+}
+
+section p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Skills */
+section ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+section ul li {
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  background: #ffe3f1;
+  border-radius: 6px;
+  display: inline-block;
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #ff5fa2;
+  margin-bottom: 15px;
+}
+
+/* Sections */
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 12px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #ff5fa2;
+}
+
+/* Projects */
+.project-card {
+  margin-top: 20px;
+}
+
+.project-card img {
+  width: 10%;
+  border-radius: 10px;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ff5fa2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+}
