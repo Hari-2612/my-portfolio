@@ -1,11 +1,7 @@
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
+document.querySelectorAll('nav a').forEach(link => {
+  link.addEventListener('click', e => {
     e.preventDefault();
-    document.querySelector(this.getAttribute('href'))
+    document.querySelector(link.getAttribute('href'))
       .scrollIntoView({ behavior: 'smooth' });
-      alert("Navigating to " + this.getAttribute('href').substring(1) + " section!");
-      alert("Enjoy the smooth scroll!");
-      alert("Have a great day!");
   });
 });
-
